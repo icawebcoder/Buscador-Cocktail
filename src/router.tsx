@@ -18,8 +18,8 @@ export default function AppRouter() {
                     <Route
                         path='/favoritos'
                         element={
-                            <Suspense fallback='Cargando...'>
-                                <FavoritesPage />
+                            <Suspense fallback='Cargando...'> 
+                            <FavoritesPage />
                             </Suspense>
                         }
                     />
